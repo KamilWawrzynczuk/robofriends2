@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const SearchBox = ({searchfield, searchChange}) => {
+    console.group('SaearchBox');
     return (
         <div className='pa2'>
             <input
